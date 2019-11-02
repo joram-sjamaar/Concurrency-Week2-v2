@@ -9,17 +9,17 @@ public class Printer extends Thread {
     private PrinterManager printerManager;
     private Customer customer;
 
-    public Printer(PrinterManager printerManager, Customer customer) {
+    public Printer(PrinterManager printerManager) {
         this.printerManager = printerManager;
     }
 
     public void run() {
         while (true) {
-            try {
-                // TODO
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                // TODO
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 

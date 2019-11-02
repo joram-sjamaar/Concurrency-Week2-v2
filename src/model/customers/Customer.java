@@ -1,18 +1,22 @@
 package model.customers;
 
-public abstract class Customer {
+import model.PrinterManager;
+
+public abstract class Customer extends Thread {
 
     private String name;
+    private PrinterManager printerManager;
 
-    public Customer(String name) {
+    public Customer(String name, PrinterManager printerManager) {
         this.name = name;
+        this.printerManager = printerManager;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void run() {
+        while (true) {
+            try {
+                printerManager.sendPrintJob(this);
+            } catch (InterruptedException e) {}
+        }
     }
 }

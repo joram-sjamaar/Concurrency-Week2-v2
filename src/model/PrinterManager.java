@@ -1,6 +1,9 @@
 package model;
 
+import model.customers.BigBoy;
 import model.customers.Customer;
+import model.customers.LittleFish;
+import utils.ConsoleColors;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -27,17 +30,15 @@ public class PrinterManager {
             while (noCustomers())
                 newJob.await();
 
-            while (inChair == null)
-                readyForCut.await();
 
-            return inChair;
+            return null;
 
         } finally {
             lock.unlock();
         }
     }
 
-    private void print() throws InterruptedException {
+    public void sendPrintJob(Customer customer) throws InterruptedException {
 
         lock.lock();
 
@@ -49,6 +50,10 @@ public class PrinterManager {
 
             nrOfCustomers++;
             newJob.signal();
+
+            if (customer instanceof LittleFish) {
+                System.out.println(ConsoleColors.RED_BOLD_BRIGHT + "Hallo klein visje" + ConsoleColors.RESET);
+            }
 
         } finally {
             lock.unlock();
