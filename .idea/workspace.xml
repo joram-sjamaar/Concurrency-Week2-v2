@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc59dd3f-f114-4b0e-864b-3163da275489" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Apl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PrinterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PrinterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/customers/BigBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customers/BigBoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/customers/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customers/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/customers/LittleFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customers/LittleFish.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +27,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,6 +70,9 @@
       <updated>1572721530130</updated>
       <workItem from="1572721532847" duration="3461000" />
       <workItem from="1572728263163" duration="843000" />
+      <workItem from="1572767295896" duration="167000" />
+      <workItem from="1572767558012" duration="15000" />
+      <workItem from="1572767590865" duration="235000" />
     </task>
     <servers />
   </component>
@@ -84,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
