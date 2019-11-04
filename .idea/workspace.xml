@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc59dd3f-f114-4b0e-864b-3163da275489" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc59dd3f-f114-4b0e-864b-3163da275489" name="Default Changelist" comment="FWAF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Apl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PrinterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PrinterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/customers/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customers/Customer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +30,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,8 +80,17 @@
       <workItem from="1572728263163" duration="843000" />
       <workItem from="1572767295896" duration="167000" />
       <workItem from="1572767558012" duration="15000" />
-      <workItem from="1572767590865" duration="235000" />
+      <workItem from="1572767590865" duration="310000" />
+      <workItem from="1572820389813" duration="20794000" />
     </task>
+    <task id="LOCAL-00001" summary="FWAF">
+      <created>1572767837966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572767837966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FWAF" />
+    <option name="LAST_COMMIT_MESSAGE" value="FWAF" />
   </component>
 </project>

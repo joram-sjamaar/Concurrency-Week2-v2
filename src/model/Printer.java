@@ -7,7 +7,6 @@ import java.util.Random;
 public class Printer extends Thread {
 
     private PrinterManager printerManager;
-    private Customer customer;
 
     public Printer(PrinterManager printerManager) {
         this.printerManager = printerManager;
@@ -15,11 +14,14 @@ public class Printer extends Thread {
 
     public void run() {
         while (true) {
-//            try {
-//                // TODO
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
+            try {
+                Customer customer = printerManager.getPrintJob();
+//                print();
+                printerManager.releasePrinter(customer);
+            } catch (InterruptedException e) {
+                System.out.println("Interrupted");
+                e.printStackTrace();
+            }
         }
     }
 
@@ -27,6 +29,7 @@ public class Printer extends Thread {
         try {
             Thread.sleep(500 + (new Random().nextInt(5) *100));
         } catch (InterruptedException e) {
+            System.out.println("Interrupted");
             e.printStackTrace();
         }
     }
